@@ -1,3 +1,10 @@
+/*
+  This is a small exercise in drawing rotating and moving squares with
+  HTML5.
+
+  author: Hanna Kumpula
+*/
+
 //Related to canvas size
 let winH = window.innerHeight;
 let winW = window.innerWidth;
