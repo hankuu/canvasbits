@@ -30,9 +30,6 @@ const canvas = d3
   .attr("width", winW)
   .attr("height", winH - 100); //-100 is just for the <h1>
 
-//Just to see the canvas
-//TODO style elsewhere
-canvas.style("border", "1px solid green");
 
 //Get context
 const context = canvas.node().getContext("2d");
@@ -173,7 +170,9 @@ function init() {
 function animate() {
   window.requestAnimationFrame(animate);
   //Clear the whole window, not just canvas
-  context.clearRect(0, 0, winW, winH);
+  //context.clearRect(0, 0, winW, winH);
+  context.fillStyle = "aliceblue"
+  context.fillRect(0, 0, winW, winH);
 
   //Update rotating rSquares
   rSquares.forEach(rSquare => {
