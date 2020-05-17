@@ -13,7 +13,7 @@ Learning:
 
 View [live](https://hankuu.github.io/canvasbits/falling_leaves/falling_leaves.html)
 
-# Floating square leaves
+# Bouncing square leaves
 
 A number of squares float around the canvas. They simply float around and bounce off the walls.
 
@@ -23,4 +23,4 @@ Learning:
 * Rotating and moving a number of squares
 
 
-View [live](https://hankuu.github.io/canvastest/bouncers/bouncers.html)
+View [live](https://hankuu.github.io/canvasbits/bouncers/bouncers.html)
